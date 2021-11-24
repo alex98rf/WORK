@@ -11302,6 +11302,16 @@ textarea.form-control-lg {
 .navbar-custom {
   background-color: #804000;
 }
+.buton-galletacolor {
+  background-color:#804000 ;
+}
 .background-color-galleta {
   background-color: #ffe0b7;
+}
+.background-galletacard {
+  background-color: #AD7941;
+}
+.imagenes-carousel{
+  max-width: 375px ;
+  max-height: 375px;
 }
