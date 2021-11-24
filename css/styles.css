@@ -41,6 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-galleta: #804000;
+  --bs-galletafondo: #ffe0b7;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -11296,4 +11298,10 @@ textarea.form-control-lg {
 .row > [class*='col-'] {
   display: flex;
   flex-direction: column;
+}
+.navbar-custom {
+  background-color: #804000;
+}
+.background-color-galleta {
+  background-color: #ffe0b7;
 }
