@@ -11306,12 +11306,16 @@ textarea.form-control-lg {
   background-color:#804000 ;
 }
 .background-color-galleta {
-  background-color: #ffe0b7;
+  background-color: #FFF0DB;
 }
 .background-galletacard {
   background-color: #AD7941;
 }
 .imagenes-carousel{
-  max-width: 589px ;
+  max-width: 492px ;
   max-height: 300px;
+  margin:auto;
+}
+.cardsbtch{
+  background-color: #e4be90;
 }
