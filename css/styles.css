@@ -14753,7 +14753,7 @@ p {
   .breadcrumb
   .breadcrumb-item
   a:hover {
-  color: #fff;
+  color: #E4BE90;
 }
 .breadcrumbs-style.breadcrumbs-style-2 .breadcrumb-right .nice-select::after {
   border-color: #fff;
@@ -15338,7 +15338,7 @@ p {
   .navbar-style-7 .navbar-container .main-navbar .navbar-menu .main-menu li a {
     display: block;
     padding: 0;
-    border-bottom: 1px solid #d1d1d1;
+    border-bottom: 1px solid #E4BE90;
     line-height: 36px;
     text-transform: capitalize;
     font-size: 16px;
@@ -16292,7 +16292,7 @@ p {
   color: #fff;
 }
 .navbar-dark-7 .navbar-container .navbar-close a:hover {
-  color: #fae5ec;
+  color: #E4BE90;
 }
 .navbar-dark-7 .navbar-container .navbar-top-wrapper {
   background-color: #b62f5c;
@@ -16323,7 +16323,7 @@ p {
   .navbar-top-link
   li
   a:hover {
-  color: #00d4e0;
+  color: #E4BE90;
 }
 .navbar-dark-7
   .navbar-container
@@ -16435,10 +16435,10 @@ p {
   .navbar-top-link
   li
   a:hover {
-  color: #e14c7b;
+  color: #E4BE90;
 }
 .navbar-dark-7 .navbar-container .main-navbar .navbar-menu .main-menu li a {
-  color: #fff;
+  color: #E4BE90;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-dark-7 .navbar-container .main-navbar .navbar-menu .main-menu li a {
