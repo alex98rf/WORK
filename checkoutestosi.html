@@ -38,52 +38,606 @@
 <!--====== Style CSS ======-->
 </head>
 <body class="bg-light">
+    <div class="navigation navbar-custom buton-galletacolor">
+        <header class="navbar-style-7 position-relative buton-galletacolor">
+          <div class="container buton-galletacolor">
+            <div class="navbar-mobile d-lg-none buton-galletacolor">
+              <div class="row align-items-center">
+                <div class="col-3">
+                  <div class="navbar-toggle icon-text-btn">
+                    <a
+                      class="icon-btn bg-dark primary-icon-text mobile-menu-open-7"
+                      href="javascript:void(0)"
+                    >
+                      <i class="mdi mdi-menu "></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="mobile-logo text-center">
+                    <a href="index.html"
+                      ><img class="logoplox" src="assets/imagenes/cookies-svgrepo-com.svg" alt="Logo"
+                    /></a>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="navbar-cart">
+                    <a
+                      class="icon-btn primary-icon-text icon-text-btn"
+                      href="javascript:void(0)"
+                    >
+                      <img class="logoplox"src="assets\imagenes\iconmonstr-shopping-cart-23.svg" alt="Icon" />
+                      <span class="icon-text text-dark text-style-1">3</span>
+                    </a>
+                    <div class="navbar-cart-dropdown">
+                      <div class="checkout-style-2">
+                        <div
+                          class="checkout-header d-flex justify-content-between"
+                        >
+                          <h6 class="title">Carrito</h6>
+                        </div>
+                        <div class="checkout-table table-responsive">
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <td class="checkout-product">
+                                  <div class="product-cart d-flex">
+                                    <div class="product-thumb">
+                                      <img
+                                        src="assets/imagenes/mantequilla venta.png"
+                                        alt="Product"
+                                      />
+                                    </div>
+                                    <div class="product-content media-body">
+                                      <h5 class="title">
+                                        <a href="product-details-page.html"
+                                          >Galletas de Mantequilla</a
+                                        >
+                                      </h5>
+                                      <ul>
+                                        <li><span>Pack</span></li>
+                                        <li><span>20u</span></li>
+                                        <li>
+                                          <a
+                                            class="delete"
+                                            href="javascript:void(0)"
+                                          >
+                                            <i class="mdi mdi-delete"></i>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="checkout-quantity">
+                                  <div class="product-quantity d-inline-flex">
+                                    <button type="button" id="sub" class="sub">
+                                      <i class="mdi mdi-minus"></i>
+                                    </button>
+                                    <input type="text" value="1" />
+                                    <button type="button" id="add" class="add">
+                                      <i class="mdi mdi-plus"></i>
+                                    </button>
+                                  </div>
+                                </td>
+                                <td class="checkout-price">
+                                  <p class="price">€7.00</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="checkout-product">
+                                  <div class="product-cart d-flex">
+                                    <div class="product-thumb">
+                                      <img
+                                        src="assets/imagenes/leche venta.png"
+                                        alt="Product"
+                                      />
+                                    </div>
+                                    <div class="product-content media-body">
+                                      <h5 class="title">
+                                        <a href="product-details-page.html"
+                                          >Galeltas de Leche</a
+                                        >
+                                      </h5>
+                                      <ul>
+                                        <li><span>Pack</span></li>
+                                        <li><span>20u</span></li>
+                                        <li>
+                                          <a
+                                            class="delete"
+                                            href="javascript:void(0)"
+                                          >
+                                            <i class="mdi mdi-delete"></i>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="checkout-quantity">
+                                  <div class="product-quantity d-inline-flex">
+                                    <button type="button" id="sub" class="sub">
+                                      <i class="mdi mdi-minus"></i>
+                                    </button>
+                                    <input type="text" value="1" />
+                                    <button type="button" id="add" class="add">
+                                      <i class="mdi mdi-plus"></i>
+                                    </button>
+                                  </div>
+                                </td>
+                                <td class="checkout-price">
+                                  <p class="price"></div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">€12.00</span>
+                                    €9.00
+                                </div></p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="checkout-product">
+                                  <div class="product-cart d-flex">
+                                    <div class="product-thumb">
+                                      <img
+                                        src="assets/imagenes/chocolatechip venta.png"
+                                        alt="Product"
+                                      />
+                                    </div>
+                                    <div class="product-content media-body">
+                                      <h5 class="title">
+                                        <a href="product-details-page.html"
+                                          >Galletas con Pepitas</a
+                                        >
+                                      </h5>
+                                      <ul>
+                                        <li><span>Pack</span></li>
+                                        <li><span>20u</span></li>
+                                        <li>
+                                          <a
+                                            class="delete"
+                                            href="javascript:void(0)"
+                                          >
+                                            <i class="mdi mdi-delete"></i>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="checkout-quantity">
+                                  <div class="product-quantity d-inline-flex">
+                                    <button type="button" id="sub" class="sub">
+                                      <i class="mdi mdi-minus"></i>
+                                    </button>
+                                    <input type="text" value="1" />
+                                    <button type="button" id="add" class="add">
+                                      <i class="mdi mdi-plus"></i>
+                                    </button>
+                                  </div>
+                                </td>
+                                <td class="checkout-price">
+                                  <p class="price">€15.00</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="checkout-product">
+                                  <div class="product-cart d-flex">
+                                    <div class="product-thumb">
+                                      <img
+                                        src="assets/imagenes/GalletasAbuelaVentas3(I).jpg"
+                                        alt="Product"
+                                      />
+                                    </div>
+                                    <div class="product-content media-body">
+                                      <h5 class="title">
+                                        <a href="product-details-page.html"
+                                          >Galletas de la abuela</a
+                                        >
+                                      </h5>
+                                      <ul>
+                                        <li><span>Pack</span></li>
+                                        <li><span>20u</span></li>
+                                        <li>
+                                          <a
+                                            class="delete"
+                                            href="javascript:void(0)"
+                                          >
+                                            <i class="mdi mdi-delete"></i>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td class="checkout-quantity">
+                                  <div class="product-quantity d-inline-flex">
+                                    <button type="button" id="sub" class="sub">
+                                      <i class="mdi mdi-minus"></i>
+                                    </button>
+                                    <input type="text" value="1" />
+                                    <button type="button" id="add" class="add">
+                                      <i class="mdi mdi-plus"></i>
+                                    </button>
+                                  </div>
+                                </td>
+                                <td class="checkout-price">
+                                  <p class="price"></div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">€18.99</span>
+                                    €15.00
+                                </div></p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="checkout-footer">
+                          <div
+                            class="
+                              checkout-sub-total
+                              d-flex
+                              justify-content-between
+                            "
+                          >
+                            <p class="value">Precio Total:</p>
+                            <p class="price">€46</p>
+                          </div>
+                          <div class="checkout-btn">
+                            <a
+                              href="cart-page.html"
+                              class="main-btn primary-btn-border"
+                              >Ver carrito</a
+                            >
+                            <a
+                              href="checkout-page.html"
+                              class="main-btn primary-btn"
+                              >Checkout</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              
+            </div>
+          </div>
+          <div class="navbar-container navbar-sidebar-7">
+            <div class="navbar-close d-lg-none">
+              <a class="close-mobile-menu-7" href="javascript:void(0)"
+                ><i class="mdi mdi-close"></i
+              ></a>
+            </div>
+  
+            
+  
+            <div class="navbar-wrapper buton-galletacolor">
+              <div class="container-lg">
+                <nav
+                  class="
+                    main-navbar
+                    d-lg-flex
+                    justify-content-between
+                    align-items-center
+                    buton-galletacolor
+                  "
+                >
+                  <div class="desktop-logo d-none d-lg-block">
+                    <a href="index.html"
+                      ><img class="logoplox" src="assets/imagenes/cookies-svgrepo-com.svg" alt="Logo"
+                    /></a>
+                  </div>
+  
+                  <div class="navbar-menu ">
+                    <ul class="main-menu ">
+                      <li class="position-static menu-item-has-children">
+                        <a class ="text-white" href="tienda.html">tienda</a>
+  
+                        
+                      </li>
+                      <li><a class ="text-white" href="contact.html">contacto</a></li>
+                      <li><a class ="text-white" href="checkout-page.html">checkout</a></li>
+                      
+                    </ul>
+                  </div>
+  
+                 
+                    <div class="navbar-cart">
+                      <a
+                        class="icon-btn primary-icon-text icon-text-btn"
+                        href="javascript:void(0)"
+                      >
+                        <img class="logoplox" src="assets\imagenes\iconmonstr-shopping-cart-23.svg" alt="Icon" />
+                        <span class="icon-text text-style-1">3</span>
+                      </a>
+                      <div class="navbar-cart-dropdown">
+                        <div class="checkout-style-2">
+                          <div
+                            class="checkout-header d-flex justify-content-between"
+                          >
+                            <h6 class="title">Carrito</h6>
+                          </div>
+                          <div class="checkout-table">
+                            <table class="table">
+                              <tbody>
+                                <tr>
+                                  <td class="checkout-product">
+                                    <div class="product-cart d-flex">
+                                      <div class="product-thumb">
+                                        <img
+                                          src="assets/imagenes/mantequilla venta.png"
+                                          alt="Product"
+                                        />
+                                      </div>
+                                      <div class="product-content media-body">
+                                        <h5 class="title">
+                                          <a href="product-details-page.html"
+                                            >Galletas de Mantequilla</a
+                                          >
+                                        </h5>
+                                        <ul>
+                                          <li><span>Pack</span></li>
+                                          <li><span>20u</span></li>
+                                          <li>
+                                            <a
+                                              class="delete"
+                                              href="javascript:void(0)"
+                                            >
+                                              <i class="mdi mdi-delete"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </td>
+                                  <td class="checkout-quantity">
+                                    <div class="product-quantity d-inline-flex">
+                                      <button type="button" id="sub" class="sub">
+                                        <i class="mdi mdi-minus"></i>
+                                      </button>
+                                      <input type="text" value="1" />
+                                      <button type="button" id="add" class="add">
+                                        <i class="mdi mdi-plus"></i>
+                                      </button>
+                                    </div>
+                                  </td>
+                                  <td class="checkout-price">
+                                    <p class="price">€7.00</p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="checkout-product">
+                                    <div class="product-cart d-flex">
+                                      <div class="product-thumb">
+                                        <img
+                                          src="assets/imagenes/leche venta.png"
+                                          alt="Product"
+                                        />
+                                      </div>
+                                      <div class="product-content media-body">
+                                        <h5 class="title">
+                                          <a href="product-details-page.html"
+                                            >Galletas de leche</a
+                                          >
+                                        </h5>
+                                        <ul>
+                                          <li><span>Pack</span></li>
+                                          <li><span>20u</span></li>
+                                          <li>
+                                            <a
+                                              class="delete"
+                                              href="javascript:void(0)"
+                                            >
+                                              <i class="mdi mdi-delete"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </td>
+                                  <td class="checkout-quantity">
+                                    <div class="product-quantity d-inline-flex">
+                                      <button type="button" id="sub" class="sub">
+                                        <i class="mdi mdi-minus"></i>
+                                      </button>
+                                      <input type="text" value="1" />
+                                      <button type="button" id="add" class="add">
+                                        <i class="mdi mdi-plus"></i>
+                                      </button>
+                                    </div>
+                                  </td>
+                                  <td class="checkout-price">
+                                    <p class="price"></div>
+                                      <!-- Product price-->
+                                      <span class="text-muted text-decoration-line-through">€12.00</span>
+                                      €9.00
+                                  </div></p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="checkout-product">
+                                    <div class="product-cart d-flex">
+                                      <div class="product-thumb">
+                                        <img
+                                          src="assets/imagenes/chocolatechip venta.png"
+                                          alt="Product"
+                                        />
+                                      </div>
+                                      <div class="product-content media-body">
+                                        <h5 class="title">
+                                          <a href="product-details-page.html"
+                                            >Galletas con Pepitas</a
+                                          >
+                                        </h5>
+                                        <ul>
+                                          <li><span>Pack</span></li>
+                                          <li><span>20u</span></li>
+                                          <li>
+                                            <a
+                                              class="delete"
+                                              href="javascript:void(0)"
+                                            >
+                                              <i class="mdi mdi-delete"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </td>
+                                  <td class="checkout-quantity">
+                                    <div class="product-quantity d-inline-flex">
+                                      <button type="button" id="sub" class="sub">
+                                        <i class="mdi mdi-minus"></i>
+                                      </button>
+                                      <input type="text" value="1" />
+                                      <button type="button" id="add" class="add">
+                                        <i class="mdi mdi-plus"></i>
+                                      </button>
+                                    </div>
+                                  </td>
+                                  <td class="checkout-price">
+                                    <p class="price">€15.00</p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="checkout-product">
+                                    <div class="product-cart d-flex">
+                                      <div class="product-thumb">
+                                        <img
+                                          src="assets/imagenes/GalletasAbuelaVentas3(I).jpg"
+                                          alt="Product"
+                                        />
+                                      </div>
+                                      <div class="product-content media-body">
+                                        <h5 class="title">
+                                          <a href="product-details-page.html"
+                                            >Galletas de la Abuela</a
+                                          >
+                                        </h5>
+                                        <ul>
+                                          <li><span>Pack</span></li>
+                                          <li><span>20u</span></li>
+                                          <li>
+                                            <a
+                                              class="delete"
+                                              href="javascript:void(0)"
+                                            >
+                                              <i class="mdi mdi-delete"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </td>
+                                  <td class="checkout-quantity">
+                                    <div class="product-quantity d-inline-flex">
+                                      <button type="button" id="sub" class="sub">
+                                        <i class="mdi mdi-minus"></i>
+                                      </button>
+                                      <input type="text" value="1" />
+                                      <button type="button" id="add" class="add">
+                                        <i class="mdi mdi-plus"></i>
+                                      </button>
+                                    </div>
+                                  </td>
+                                  <td class="checkout-price">
+                                    <p class="price"></div>
+                                      <!-- Product price-->
+                                      <span class="text-muted text-decoration-line-through">€18.99</span>
+                                      €15.00
+                                  </div></p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="checkout-footer">
+                            <div
+                              class="
+                                checkout-sub-total
+                                d-flex
+                                justify-content-between
+                              "
+                            >
+                              <p class="value">Precio Total:</p>
+                              <p class="price">€46</p>
+                            </div>
+                            <div class="checkout-btn">
+                              <a
+                                href="cart-page.html"
+                                class="main-btn primary-btn-border"
+                                >Ver carrito</a
+                              >
+                              <a
+                                href="checkout-page.html"
+                                class="main-btn primary-btn"
+                                >Checkout</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+<div class="col background-color-galleta">
 
-    <div class="container">
+
+    <div class="container background-color-galleta">
       <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h2>Checkout form</h2>
-        <p class="lead">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        <img class="d-block mx-auto mb-4" src="assets/imagenes/cookies-svgrepo-com.svg" alt="" width="72" height="72">
+        <h2>Checkout </h2>
+        <p class="lead">Completa el formulario para terminar tu compra!</p>
       </div>
 
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
           <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-muted">Your cart</span>
+            <span class="text-muted">Carrito    </span>
             <span class="badge badge-secondary badge-pill">3</span>
           </h4>
           <ul class="list-group mb-3">
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h6 class="my-0">Product name</h6>
-                <small class="text-muted">Brief description</small>
+                <h6 class="my-0">Galletas de Mantequilla</h6>
+                <small class="text-muted">Pack 20u</small>
               </div>
-              <span class="text-muted">$12</span>
+              <span class="text-muted">€7.00</span>
             </li>
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h6 class="my-0">Second product</h6>
-                <small class="text-muted">Brief description</small>
+                <h6 class="my-0">Galletas de leche</h6>
+                <small class="text-muted">Pack 20u</small>
               </div>
-              <span class="text-muted">$8</span>
+              <span class="text-muted">€9.00</span>
             </li>
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h6 class="my-0">Third item</h6>
-                <small class="text-muted">Brief description</small>
+                <h6 class="my-0">Galletas con pepitas</h6>
+                <small class="text-muted">Pack 20u</small>
               </div>
-              <span class="text-muted">$5</span>
+              <span class="text-muted">€15.00</span>
             </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+                <div>
+                  <h6 class="my-0">Galletas de la abuela</h6>
+                  <small class="text-muted">Pack 20u</small>
+                </div>
+                <span class="text-muted">€15.00</span>
+              </li>
             <li class="list-group-item d-flex justify-content-between bg-light">
               <div class="text-success">
-                <h6 class="my-0">Promo code</h6>
-                <small>EXAMPLECODE</small>
+                <h6 class="my-0">Codigo de descuento</h6>
+                <small>LASoRIGINALES</small>
               </div>
-              <span class="text-success">-$5</span>
+              <span class="text-success">-€10</span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
-              <strong>$20</strong>
+              <span>Total (eur)</span>
+              <strong>€36.00</strong>
             </li>
           </ul>
 
@@ -91,24 +645,24 @@
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Promo code">
               <div class="input-group-append">
-                <button type="submit" class="btn btn-secondary">Redeem</button>
+                <button type="submit" class="btn btn-secondary">Applicar</button>
               </div>
             </div>
           </form>
         </div>
         <div class="col-md-8 order-md-1">
-          <h4 class="mb-3">Billing address</h4>
+          <h4 class="mb-3">Direccion de facturacion</h4>
           <form class="needs-validation" novalidate="">
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="firstName">First name</label>
+                <label for="firstName">Nombre</label>
                 <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
                 <div class="invalid-feedback">
                   Valid first name is required.
                 </div>
               </div>
               <div class="col-md-6 mb-3">
-                <label for="lastName">Last name</label>
+                <label for="lastName">Apellidos</label>
                 <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
                 <div class="invalid-feedback">
                   Valid last name is required.
@@ -117,12 +671,12 @@
             </div>
 
             <div class="mb-3">
-              <label for="username">Username</label>
+              <label for="username">Nombre de Usuario</label>
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">@</span>
                 </div>
-                <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                <input type="text" class="form-control" id="username" placeholder="Nombre de Usuario" required="">
                 <div class="invalid-feedback" style="width: 100%;">
                   Your username is required.
                 </div>
@@ -131,14 +685,14 @@
 
             <div class="mb-3">
               <label for="email">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <input type="email" class="form-control" id="email" placeholder="maria@ejemplo.com">
               <div class="invalid-feedback">
                 Please enter a valid email address for shipping updates.
               </div>
             </div>
 
             <div class="mb-3">
-              <label for="address">Address</label>
+              <label for="address">Direccion</label>
               <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
               <div class="invalid-feedback">
                 Please enter your shipping address.
@@ -146,33 +700,33 @@
             </div>
 
             <div class="mb-3">
-              <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+              <label for="address2">Direccion 2 <span class="text-muted">(Opcional)</span></label>
               <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
             </div>
 
             <div class="row">
               <div class="col-md-5 mb-3">
-                <label for="country">Country</label>
+                <label for="country">Pais</label>
                 <select class="custom-select d-block w-100" id="country" required="">
-                  <option value="">Choose...</option>
-                  <option>United States</option>
+                  <option value="">Elegir Pais</option>
+                  <option>Españita</option>
                 </select>
                 <div class="invalid-feedback">
                   Please select a valid country.
                 </div>
               </div>
               <div class="col-md-4 mb-3">
-                <label for="state">State</label>
+                <label for="state">Ciudad</label>
                 <select class="custom-select d-block w-100" id="state" required="">
-                  <option value="">Choose...</option>
-                  <option>California</option>
+                  <option value="">Eligir Ciudad</option>
+                  <option>Madriz</option>
                 </select>
                 <div class="invalid-feedback">
                   Please provide a valid state.
                 </div>
               </div>
               <div class="col-md-3 mb-3">
-                <label for="zip">Zip</label>
+                <label for="zip">Codigo Postal</label>
                 <input type="text" class="form-control" id="zip" placeholder="" required="">
                 <div class="invalid-feedback">
                   Zip code required.
@@ -182,24 +736,24 @@
             <hr class="mb-4">
             <div class="custom-control custom-checkbox">
               <input type="checkbox" class="custom-control-input" id="same-address">
-              <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+              <label class="custom-control-label" for="same-address">Direccion de envio es la misma que direccion de facturación</label>
             </div>
             <div class="custom-control custom-checkbox">
               <input type="checkbox" class="custom-control-input" id="save-info">
-              <label class="custom-control-label" for="save-info">Save this information for next time</label>
+              <label class="custom-control-label" for="save-info">Guardar Informacion para siguientes compras</label>
             </div>
             <hr class="mb-4">
 
-            <h4 class="mb-3">Payment</h4>
+            <h4 class="mb-3">Pago</h4>
 
             <div class="d-block my-3">
               <div class="custom-control custom-radio">
                 <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
-                <label class="custom-control-label" for="credit">Credit card</label>
+                <label class="custom-control-label" for="credit">Tarjeta de Credito</label>
               </div>
               <div class="custom-control custom-radio">
                 <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
-                <label class="custom-control-label" for="debit">Debit card</label>
+                <label class="custom-control-label" for="debit">Tarjeta de debito</label>
               </div>
               <div class="custom-control custom-radio">
                 <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
@@ -208,15 +762,15 @@
             </div>
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="cc-name">Name on card</label>
+                <label for="cc-name">Nombre en la tarjeta</label>
                 <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-                <small class="text-muted">Full name as displayed on card</small>
+                <small class="text-muted">Nombre completo del dueño de la tarjeta</small>
                 <div class="invalid-feedback">
                   Name on card is required
                 </div>
               </div>
               <div class="col-md-6 mb-3">
-                <label for="cc-number">Credit card number</label>
+                <label for="cc-number">Numero de tarjeta</label>
                 <input type="text" class="form-control" id="cc-number" placeholder="" required="">
                 <div class="invalid-feedback">
                   Credit card number is required
@@ -225,7 +779,7 @@
             </div>
             <div class="row">
               <div class="col-md-3 mb-3">
-                <label for="cc-expiration">Expiration</label>
+                <label for="cc-expiration">Caducidad</label>
                 <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
                 <div class="invalid-feedback">
                   Expiration date required
@@ -240,19 +794,12 @@
               </div>
             </div>
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+            <button class="btn btn-primary btn-lg btn-block mb-5" type="submit">Continuar con el pago</button>
           </form>
         </div>
       </div>
-
-      <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">© 2017-2018 Company Name</p>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Privacy</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Support</a></li>
-        </ul>
-      </footer>
+<div class="col mb-5 mt-5"></div>
+      
     </div>
 
     <!-- Bootstrap core JavaScript
@@ -286,5 +833,9 @@
       })();
     </script>
   
-
+</div>
 </body>
+<!-- Footer-->
+<footer class="py-5 buton-galletacolor col mt-5">
+    <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+</footer>
